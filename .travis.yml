@@ -3,7 +3,7 @@ sudo: false
 cache: bundler
 rvm:
   - 2.2
-  install:
-    - bundle install --retry=3
-    script:
-      - bundle exec rubocop
+install:
+  - bundle install --retry=3
+script:
+  - bundle exec rubocop
